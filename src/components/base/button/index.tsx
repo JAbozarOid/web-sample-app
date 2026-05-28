@@ -39,21 +39,21 @@ export const Button: React.FC<ButtonProps> = ({
 };
 
 // hashtable of functions to create different variant of button
-const buttonFactory = {
-  contained: () => (
-    <button className="bg-blue-500 text-white px-4 py-2 rounded">
-      Contained Button
-    </button>
-  ),
-  outlined: () => (
-    <button className="border border-blue-500 text-blue-500 px-4 py-2 rounded">
-      Outlined Button
-    </button>
-  ),
-  text: () => <button className="text-blue-500 px-4 py-2">Text Button</button>,
-  default: () => (
-    <button className="bg-gray-500 text-white px-4 py-2 rounded">
-      Default Button
-    </button>
-  ),
-};
+// const buttonFactory = {
+//   contained: () => (
+//     <button className="bg-blue-500 text-white px-4 py-2 rounded">
+//       Contained Button
+//     </button>
+//   ),
+//   outlined: () => (
+//     <button className="border border-blue-500 text-blue-500 px-4 py-2 rounded">
+//       Outlined Button
+//     </button>
+//   ),
+//   text: () => <button className="text-blue-500 px-4 py-2">Text Button</button>,
+//   default: () => (
+//     <button className="bg-gray-500 text-white px-4 py-2 rounded">
+//       Default Button
+//     </button>
+//   ),
+// };
